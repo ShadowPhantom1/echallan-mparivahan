@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#e7e8dc"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="4" dy="7" stdDeviation="6" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="#2c2c2c"/>
+  <circle cx="256" cy="256" r="246" fill="#ff0505"/>
+  <g filter="url(#shadow)">
+    <rect x="150" y="88" width="151" height="319" rx="10" fill="none" stroke="#f7f7ed" stroke-width="12"/>
+    <path d="m227 253 17-39c4-10 12-15 23-15h61c11 0 20 5 24 15l15 39" fill="#f0ece4" stroke="#535752" stroke-width="5"/>
+    <path d="m246 245 10-28h80l10 28z" fill="#687471"/>
+    <rect x="224" y="281" width="19" height="57" rx="8" fill="#303b31"/>
+    <rect x="352" y="281" width="19" height="57" rx="8" fill="#303b31"/>
+    <path d="M229 252q68-13 137 0l12 30v30H216v-30z" fill="url(#body)" stroke="#c5c9b9" stroke-width="3"/>
+    <path d="M216 301h162v20H216z" fill="#277b66"/>
+    <rect x="267" y="288" width="61" height="10" rx="3" fill="#485349"/>
+    <path d="M269 274h57m-57 7h57" stroke="#485349" stroke-width="4"/>
+    <ellipse cx="235" cy="269" rx="11" ry="15" fill="#ffe565"/>
+    <ellipse cx="359" cy="269" rx="11" ry="15" fill="#ffe565"/>
+    <rect x="274" y="304" width="48" height="12" rx="2" fill="#fff"/>
+  </g>
+</svg>

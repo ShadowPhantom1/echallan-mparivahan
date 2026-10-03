@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+.vps-host/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.session
+*.session-journal
+dist/apk_backups/
+*.log
+tunnel_*.log

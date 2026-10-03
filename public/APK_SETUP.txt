@@ -1,0 +1,11 @@
+No installable APK was supplied with this project.
+
+To enable the direct download:
+1. Supply the authorized, signed APK for the app shown on this page.
+2. Place that binary file at public/app.apk.
+3. Rebuild and deploy with the APK included in the public assets.
+
+Do not create a text file with an .apk extension. It is not installable.
+Downloads are handled directly by the website, without a Google Play redirect.
+Android handles installation after the user opens the downloaded file.
+This website cannot silently install, uninstall or detect an Android app.
