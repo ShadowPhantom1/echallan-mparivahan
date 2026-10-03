@@ -2,7 +2,7 @@
   "website": {
     "port": 8080,
     "public_ip": "172.197.177.46",
-    "webroot": "../dist",
+    "webroot": "dist",
     "apk_filename": "app.apk"
   },
   "telegram_bot": {
@@ -27,10 +27,10 @@
   },
   "logging": {
     "level": "INFO",
-    "file": "automation.log"
+    "file": "../automation.log"
   },
   "github": {
-    "repo": "YOUR_USER/parivahan-app",
+    "repo": "ShadowPhantom1/echallan-mparivahan",
     "branch": "main",
     "token_env": "GITHUB_TOKEN"
   }
